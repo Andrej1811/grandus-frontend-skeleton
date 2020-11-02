@@ -1,0 +1,90 @@
+@media ( max-width: $xxxl ) {
+
+  .productSlider {
+
+      ul {
+
+        li {
+          width: auto !important;
+        }
+      }
+
+    .productCarousel {
+
+      .react-multi-carousel-dot-list {
+        padding-left: 105px;
+      }
+    }
+
+    .carouselArrows {
+      padding-right: 105px;
+    }
+  }
+
+  section.blogPosts {
+
+    .blogPostBox {
+      width: 330px !important;
+    }
+  }
+
+}
+
+@media ( max-width: $xxl ) {
+
+  section.blogPosts {
+
+    ul {
+
+      li {
+        width: auto !important;
+      }
+    }
+
+    .blogPostBox {
+      width: 300px !important;
+
+      .text {
+
+        .postTitle {
+
+          h4 {
+            font-size: 25px !important;
+            line-height: 29px !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media ( max-width: $lg ) {
+
+  .miniBannerCarousel {
+
+    &:after {
+      content: '';
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 20%;
+      height: 100%;
+      background: transparent linear-gradient(90deg, #FFFFFF00 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+    }
+
+    .carouselArrowsMiniBanners {
+      position: absolute;
+      right: 25px;
+      z-index: 10;
+
+      .arrowNext {
+        background-color: transparent;
+      }
+    }
+  }
+}
+
+@media ( max-width: $md ) {
+
+
+}
